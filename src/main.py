@@ -72,7 +72,7 @@ def obter_dados_tempo(cidade):
 cidades = ['imperatriz', 'codo','sao-luiz']
 
 # Solicita ao usuário o caminho da pasta de destino
-destino = 'G:/Atila_Rocha/Programacao/Github/webscraping clima/src/db'
+destino = 'G:\Atila_Rocha\Programacao\Github\webscraping-tempo.com\src\db'
 
 # Itera sobre as cidades e obtém os dados do tempo
 for cidade in cidades:

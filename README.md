@@ -1,23 +1,25 @@
 # Web Scraping do tempo.com com BeautifulSoup em Python
 
-Este repositório contém um projeto de web scraping desenvolvido em Python, utilizando a biblioteca BeautifulSoup, com o objetivo de extrair informações meteorológicas do site tempo.com.
+Este repositório contém um projeto de web scraping desenvolvido em Python, utilizando a biblioteca BeautifulSoup, com o objetivo de extrair informações meteorológicas do site tempo.com
 
-## Funcionalidades
 
-- Recuperação da temperatura atual
-- Extração das condições climáticas
-- Obtenção da previsão do tempo para os próximos dias
-- Coleta de informações detalhadas sobre o clima, como umidade, velocidade do vento e sensação térmica
 
 ## Pré-requisitos
 
 Antes de executar o código, certifique-se de ter os seguintes requisitos atendidos:
 
-- Python 3 instalado
+<center>
+    <img src="https://img.shields.io/badge/-Python-lightgrey?style=flat&logo=python" alt="Python">
+    <img src="https://img.shields.io/badge/-Pandas-brightgreen?style=flat&logo=pandas" alt="Pandas">
+    <img src="https://img.shields.io/badge/-Beautifulsoup4-green?style=flat" alt="Beautifulsoup">
+    <img src="https://img.shields.io/badge/-Requests-red?style=flat" alt="Requests">
+</center>
+
+
 - Bibliotecas necessárias (beautifulsoup4, requests, entre outras) instaladas. Para instalá-las, você pode usar o gerenciador de pacotes pip:
 
     ```
-    pip install beautifulsoup4 requests
+    pip install -r requirements.txt
     ```
 
 ## Utilização
